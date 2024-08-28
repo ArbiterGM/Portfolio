@@ -27,10 +27,7 @@ export default function Contact() {
             I'll try my best to get back to you!
           </p>
           <div className="lg:w-full lg:mt-[2rem] mx-auto">
-            <form
-              action="https://getform.io/f/05a23bc2-0059-41f0-a916-73b34dcc178c"
-              method="POST"
-            >
+            <form action="https://getform.io/f/aejyngkb" method="POST">
               <div className="flex flex-col gap-[20px] p-[20px] lg:p-[0px]">
                 <div className="flex flex-col gap-[20px] md:flex-row ">
                   <div className="flex flex-col gap-[5px] w-1/2">

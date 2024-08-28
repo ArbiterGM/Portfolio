@@ -31,9 +31,9 @@ export default function Home() {
             </h1>
             <p className="text-[--textLight] md:text-[24px] font-[400]">
               I'm{" "}
-              <p className="inline bg-white text-gray-500 font-bold px-2 rounded-lg">
-                <p className="text-purple-600 inline">MERN Stack</p>
-              </p>{" "}
+              <span className="inline bg-white text-gray-500 font-bold px-2 rounded-lg">
+                <span className="text-purple-600 inline">MERN Stack</span>
+              </span>{" "}
               developer based in Tbilisi, Georgia
             </p>
 
