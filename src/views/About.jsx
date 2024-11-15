@@ -43,6 +43,12 @@ export default function About() {
                 </p>
                 <p>TypeScript</p>
               </div>
+              <div className="flex items-center gap-[5px] whitespace-nowrap">
+                <p>
+                  <BsPlay color="#ba67d6" />
+                </p>
+                <p>Redux Toolkit</p>
+              </div>
               <div className="flex items-center gap-[5px]">
                 <p>
                   <BsPlay color="#ba67d6" />
@@ -69,7 +75,7 @@ export default function About() {
                 </p>
                 <p>MongoDB</p>
               </div>
-              <div className="flex items-center gap-[5px]">
+              <div className="flex items-center gap-[5px] whitespace-nowrap">
                 <p>
                   <BsPlay color="#ba67d6" />
                 </p>

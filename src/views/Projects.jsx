@@ -58,11 +58,13 @@ export default function Projects() {
                       {projEl.liveSite}
                     </p>
                   </a>
-                  <a href={projEl.githubCode} target="_blank">
-                    <p className="lg:hover:text-[--lightPurple] lg:duration-[200ms] lg:cursor-pointer ">
-                      {projEl.github}
-                    </p>
-                  </a>
+                  {projEl.githubCode && (
+                    <a href={projEl.githubCode} target="_blank">
+                      <p className="lg:hover:text-[--lightPurple] lg:duration-[200ms] lg:cursor-pointer ">
+                        {projEl.github}
+                      </p>
+                    </a>
+                  )}
                 </div>
               </motion.div>
             </div>

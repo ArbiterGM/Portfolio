@@ -1,24 +1,14 @@
-import omnifood from "../assets/omnifood.jpg";
+import tsitsila from "../assets/tsitsila.png";
 import nasa from "../assets/nasa.png";
-import hangman from "../assets/hangman.png";
-import pizza from "../assets/pizza.jpg";
+import primeboxing from "../assets/primeboxing.png";
 import hotel from "../assets/hotel.jpg";
-import amore from "../assets/amore.jpg";
+import poolinaria from "../assets/poolinaria.png";
+import notes from "../assets/notes.png";
+import amore from "../assets/amore.png";
 import { FiGithub } from "react-icons/fi";
 import { FiExternalLink } from "react-icons/fi";
 
 export const ProjectsData = [
-  {
-    id: 0,
-    image: [omnifood],
-    liveSite: <FiExternalLink />,
-    github: <FiGithub />,
-    liveLink: "https://arbitergm.github.io/Omnifood/",
-    githubCode: "https://github.com/ArbiterGM/Omnifood",
-    websiteTitle: "OmniFood",
-    siteInfo: `AI powered food subscription website. Fully responsive for any devices.`,
-    buildIn: `HTML, Javascript`,
-  },
   {
     id: 1,
     image: [nasa],
@@ -30,31 +20,8 @@ export const ProjectsData = [
     siteInfo: `A simple react app showcasing NASA's APOD (A picture of the day) project.`,
     buildIn: `React, API`,
   },
-
   {
     id: 2,
-    image: [hangman],
-    liveSite: <FiExternalLink />,
-    github: <FiGithub />,
-    liveLink: "https://hangman-arbi.vercel.app",
-    githubCode: "https://github.com/ArbiterGM/Hangman-TS",
-    websiteTitle: "Hangman",
-    siteInfo: `A popular game of hangman made with react and typescript.`,
-    buildIn: `React, Typescript`,
-  },
-  {
-    id: 3,
-    image: [pizza],
-    liveSite: <FiExternalLink />,
-    github: <FiGithub />,
-    liveLink: "https://pizza-react-arbi.vercel.app",
-    githubCode: "https://github.com/ArbiterGM/Pizzeria-React",
-    websiteTitle: "Pizzeria",
-    siteInfo: `A pizzeria page with cart functionality. Fully responsive for any devices.`,
-    buildIn: `React, Context API, Tailwind CSS`,
-  },
-  {
-    id: 4,
     image: [hotel],
     liveSite: <FiExternalLink />,
     github: <FiGithub />,
@@ -65,6 +32,49 @@ export const ProjectsData = [
     buildIn: `React, Router, Context API, Tailwind CSS`,
   },
   {
+    id: 3,
+    image: [poolinaria],
+    liveSite: <FiExternalLink />,
+    github: <FiGithub />,
+    liveLink: "https://poolinaria.vercel.app",
+    githubCode: "https://github.com/ArbiterGM/Poolinaria",
+    websiteTitle: "Poolinaria",
+    siteInfo: `A landing page website based on local entertainment business. Fully responsive for any devices.`,
+    buildIn: `React, Tailwind CSS, Framer Motion`,
+  },
+  {
+    id: 4,
+    image: [primeboxing],
+    liveSite: <FiExternalLink />,
+    github: <FiGithub />,
+    liveLink: "https://primeboxing.vercel.app",
+    websiteTitle: "Prime Boxing Club",
+    siteInfo: `A website based on a local boxing gym business. Fully responsive for all devices.`,
+    buildIn: `React, Router, Tailwind CSS, Framer Motion`,
+  },
+  {
+    id: 3,
+    image: [tsitsila],
+    liveSite: <FiExternalLink />,
+    github: <FiGithub />,
+    liveLink: "https://tsitsila.vercel.app",
+    githubCode: "",
+    websiteTitle: "Tsitsila",
+    siteInfo: `Local chicken restaurant. Fully responsive for all devices.`,
+    buildIn: `React, Router, Typescript, TailwindCSS, Framer Motion, Swiper`,
+  },
+  {
+    id: 3,
+    image: [notes],
+    liveSite: <FiExternalLink />,
+    github: <FiGithub />,
+    liveLink: "https://notes-arbi.vercel.app/login",
+    githubCode: "",
+    websiteTitle: "Notes",
+    siteInfo: `Notes web application made with MERN Stack.`,
+    buildIn: `MERN Stack, Typescript, Tailwind CSS, JWT, Bcrypt`,
+  },
+  {
     id: 5,
     image: [amore],
     liveSite: <FiExternalLink />,
@@ -72,6 +82,6 @@ export const ProjectsData = [
     liveLink: "https://amorets.onrender.com",
     websiteTitle: "Amore",
     siteInfo: `A MERN stack website for a flower bouquet company. fully functional. fully responsive for any devices.`,
-    buildIn: `MERN, Typescript, Tailwind CSS, Framer Motion, Redux, JWT`,
+    buildIn: `MERN Stack, Typescript, Tailwind CSS, Framer Motion, Redux Toolkit, JWT`,
   },
 ];
