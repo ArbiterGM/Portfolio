@@ -4,6 +4,7 @@ import primeboxing from "../assets/primeboxing.png";
 import hotel from "../assets/hotel.jpg";
 import poolinaria from "../assets/poolinaria.png";
 import notes from "../assets/notes.png";
+import gaugzavneli from "../assets/gaugzavneli.png";
 import amore from "../assets/amore.png";
 import { FiGithub } from "react-icons/fi";
 import { FiExternalLink } from "react-icons/fi";
@@ -76,6 +77,16 @@ export const ProjectsData = [
   },
   {
     id: 5,
+    image: [gaugzavneli],
+    liveSite: <FiExternalLink />,
+    github: <FiGithub />,
+    liveLink: "https://gaugzavneli.ge",
+    websiteTitle: "Gaugzavneli",
+    siteInfo: `A MERN stack website based on the famous "The Unsent Project". fully responsive for any devices.`,
+    buildIn: `MERN Stack, Router, Typescript, Tailwind CSS, Axios`,
+  },
+  {
+    id: 6,
     image: [amore],
     liveSite: <FiExternalLink />,
     github: <FiGithub />,
